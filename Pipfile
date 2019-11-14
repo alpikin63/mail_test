@@ -6,13 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-selenium = "*"
 pytest = "*"
-selene = "*"
 pytest-env = "*"
+selene = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.6"
 
 [pipenv]
 allow_prereleases = true

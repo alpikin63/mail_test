@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0593318a9a250588d2605222d7b6b0fc7a32eb11ec2aab4c6789dfe9e41cc6fa"
+            "sha256": "55dcdd52cd23ccbca292eb620241a487cacedbf28c49819db8fa6a663f66d3a0"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.7"
+            "python_version": "3.6"
         },
         "sources": [
             {
@@ -56,7 +56,6 @@
                 "sha256:05eed71e2e327246ad6b38c540c4a3117230b19679b875190486ddd2d721422d",
                 "sha256:f8ac84de7840f5b9c4e3347b3c1eaa50f7e49c2b07596221daec5edaabbd7c48"
             ],
-            "markers": "sys_platform == 'win32'",
             "version": "==0.4.1"
         },
         "configparser": {
@@ -163,7 +162,6 @@
                 "sha256:49d9b3bc156b795b94b06ae4e65dcd9c454b8e5f29624f2a117f02e3020ce411",
                 "sha256:fcddc25a170c7170325bf8154b0d4c1be25a750a96ce373f7bedbb0999d33aa0"
             ],
-            "index": "pypi",
             "version": "==4.0.0a3"
         },
         "six": {
