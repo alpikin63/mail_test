@@ -1,4 +1,4 @@
-from selene.api import s
+from selene.api import *
 
 
 class MailPage(object):
@@ -11,6 +11,7 @@ class MailPage(object):
         self.sucsses_title = s('.layer__header')
 
     def send_mail(self, whom, title, body, browser):
+        self.write_letter_button.should(be.visible)
         self.write_letter_button.click()
         self.whom_input.set_value(whom)
         self.title_input.set_value(title)

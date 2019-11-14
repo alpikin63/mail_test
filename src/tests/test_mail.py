@@ -11,6 +11,7 @@ class TestLogin:
         browser.close()
 
     def test_send_email(self):
-        MainPage().login(name='testt2005', password='123Qa!', domain='inbox.ru')
-        MailPage().send_mail(whom='alpikin63@gmail.com', title='testtitle', body='testbodey').sucsses_title.should(
-            have.exact_text("Отправлено"))
+        MainPage().login(name='testt2005', password='123Qa!', domain=1)
+        MailPage().send_mail(
+            whom='alpikin63@gmail.com', title='testtitle', body='testbodey', browser=browser).sucsses_title.should(
+            have.exact_text("Письмо отправлено"))
