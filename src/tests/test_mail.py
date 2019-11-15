@@ -7,7 +7,8 @@ from src.model.mail import Mail
 tru_user = User(login='testt2005', password='123Qa!', domain=1)
 mail = Mail()
 
-class TestLogin:
+
+class TestSendMail:
     def setup(self):
         browser.open_url('/')
 
